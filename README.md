@@ -8,12 +8,12 @@
 </p>
 
 ## Screenshot 
-![Screenshot](https://github.com/Dax89/electron-sveltekit/blob/master/screenshot.png)
+[Forked from](https://github.com/Dax89/electron-sveltekit)
 
 ## Installation
 
 ```
-npx degit Dax89/electron-sveltekit
+git clone https://github.com/lcharleslaing/electron-sveltekit-base.git <your project name>
 ```
 
 ## Commands
@@ -23,13 +23,14 @@ npx degit Dax89/electron-sveltekit
 - `npm run build`: Runs SvelteKit compiler
 - `npm run dev:package`: Creates an Electron package (you can inspect the contents)
 - `npm run package`: Creates a distributable Electron package
+- `npx prisma migrate dev`: Creates a database migration (This is setup with SQLite)
+- `npx prisma studio`: Opens in the browser, a UI for interacting with your database
 
 ## Bootstrap 5 and FontAwesome support
 
 Download the template and install the dependencies:
 
 ```
-npx degit Dax89/electron-sveltekit
 npm install --save bootstrap@next @fortawesome/fontawesome-free
 ```
 
