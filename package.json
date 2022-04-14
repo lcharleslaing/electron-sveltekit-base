@@ -11,19 +11,25 @@
     "electron": "concurrently --kill-others \"svelte-kit dev\" \"electron src/electron.cjs\"",
     "build": "svelte-kit build",
     "dev:package": "npm run build && electron-builder --config electron-builder.config.json --dir",
-    "package": "npm run build && electron-builder --config electron-builder.config.json"
+    "package": "npm run build && electron-builder --config electron-builder.config.json",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "next",
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
+    "@types/node": "^17.0.24",
     "concurrently": "^6.0.0",
     "electron": "^12.0.2",
     "electron-builder": "^22.10.5",
     "electron-reloader": "^1.2.0",
+    "prisma": "^3.12.0",
     "sass": "^1.0.0",
     "svelte": "^3.29.0",
     "svelte-preprocess": "^4.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
     "vite": "^2.1.0"
   },
   "type": "module",
