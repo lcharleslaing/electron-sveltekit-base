@@ -1,7 +1,5 @@
-<!-- Based on: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp -->
-
 <script>
-  import "../app.scss";
+  import "../../app.scss";
 </script>
 
 <div class="sidenav">

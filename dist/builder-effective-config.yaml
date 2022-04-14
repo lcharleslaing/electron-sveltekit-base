@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: build
+asar: false
+files:
+  - filter:
+      - src/electron.cjs
+  - from: build
+    to: ''
+electronVersion: 12.2.3

@@ -1,15 +1,20 @@
 <script>
-  import Counter from "$lib/Counter.svelte";
 </script>
 
 <svelte:head>
-  <title>Svelte Template</title>
+  <title>Electron / Sveltekit Base</title>
 </svelte:head>
 
 <main>
-  <h1 class="text-primary">Hello world!</h1>
-  <Counter />
-  <p>Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps. <i class="fas fa-heart fa-fw"></i></p>
+  <h2 class="text-primary">Electron/Sveltekit Base!</h2>
+  <p>Clone this and make it your own!</p>
+  <p>
+    <a
+      target="_blank"
+      href="https://github.com/lcharleslaing/electron-sveltekit-base.git"
+      class="button">My Repository</a
+    >
+  </p>
 </main>
 
 <style lang="scss">

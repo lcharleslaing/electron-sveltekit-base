@@ -1,4 +1,7 @@
-$primary: #ff3e00;
+$primary: rgb(255, 98, 0);
+$text-light: white;
+$text-dark: black;
+$text-color: $text-light;
 
 :root {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -12,9 +15,15 @@ $primary: #ff3e00;
   padding: 10px 10px;
   display: inline-block;
   background-color: $primary;
-  color: white;
+  color: $text-color;
   text-decoration: none;
   border: none;
+  border-radius: 10px;
+}
+
+.button:hover{
+  background-color: rgb(255, 130, 53);
+  color: $text-color;
 }
 
  /* The sidebar menu */
@@ -33,15 +42,15 @@ $primary: #ff3e00;
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  color: $text-color;
   display: block;
 }
 
 .sidenav a:hover {
-  background-color: #f1f1f1;
-  color: $primary;
+  background-color: rgb(255, 130, 53);
+  color: $text-color;
 }
 
 .main {
