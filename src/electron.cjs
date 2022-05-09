@@ -28,7 +28,7 @@ function createMainWindow() {
     autoHideMenuBar: true,
     darkTheme: true,
     minHeight: 800,
-    minWidth: 800,
+    minWidth: 450,
 
     webPreferences: {
       nodeIntegration: true,

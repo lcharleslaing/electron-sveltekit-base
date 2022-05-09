@@ -1,10 +1,15 @@
 <script>
+  import "../app.css";
   import "../app.scss";
   import SideBar from "$lib/components/SideBar.svelte";
+  import Navbar from "../lib/components/Navbar.svelte";
 </script>
 
-<SideBar />
+<svelte:head>
+  <title>I AM BIG2TINY</title>
+</svelte:head>
 
-<div class="main">
+<div class="">
+  <Navbar />
   <slot />
 </div>
